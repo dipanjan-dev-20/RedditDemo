@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.RedditDemo" parent="Base.Theme.RedditDemo"/>
+
+    <style name="Base.Theme.RedditDemo" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="themeColor">@color/white</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="colorPrimary">@color/grey_100</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/red</item>
+        <item name="textAppearanceTitle1">@style/Title1</item>
+        <item name="textAppearanceTitle1SemiBold">@style/Title1_Semi_bold</item>
+        <item name="textAppearanceTitle2Bold">@style/Title2_Bold</item>
+        <item name="textAppearanceTitle2Light">@style/Title2_Light</item>
+        <item name="textAppearanceTitle2Regular">@style/Title2_Regular</item>
+        <item name="textAppearanceTitle2SemiBold">@style/Title2_Semi_Bold</item>
+        <item name="textAppearanceTitle3Bold">@style/Title3_Bold</item>
+        <item name="textAppearanceTitle3Light">@style/Title3_Light</item>
+        <item name="textAppearanceTitle3Regular">@style/Title3_Regular</item>
+        <item name="textAppearanceTitle3SemiBold">@style/Title3_Semi_Bold</item>
+        <item name="textAppearanceTitle4SemiBold">@style/Title4_Semi_Bold</item>
+        <item name="textAppearanceTitle4Bold">@style/Title4_Bold</item>
+        <item name="textAppearanceTitle5Light">@style/Title5_Light</item>
+        <item name="textAppearanceTitle5Regular">@style/Title5_regular</item>
+        <item name="textAppearanceTitle5SemiBold">@style/Title5_Semi_Bold</item>
+        <item name="textAppearanceTitle6Italic">@style/Title6_Italic</item>
+        <item name="textAppearanceTitle6SemiBold">@style/Title6_Semi_Bold</item>
+        <item name="textColorAccent">@color/red</item>
+        <item name="textColorMediumDark">@color/grey_900</item>
+        <item name="textColorMedium">@color/grey_600</item>
+        <item name="textColorLight">@color/grey_300</item>
+        <item name="textColorDark">@color/black</item>
+        <item name="textColorOnAccent">@color/white</item>
+        <item name="textColorYellow">@color/yellow</item>
+        <item name="colorSeparator">@color/grey_300</item>
+        <item name="colorShadow">@color/black__trans_25</item>
+        <item name="colorShadowLight">@color/black_trans_12</item>
+        <item name="defaultHintColor">@color/grey_300</item>
+        <item name="colorAccentBase">@color/red_100</item>
+        <item name="colorAccentYellowBase">@color/yellow_trans_8</item>
+        <item name="textColorPositive">@color/green</item>
+        <item name="textColorNegative">@color/red</item>
+        <item name="appCardBackgroundColor">@color/white</item>
+        <item name="appCardAboveBackgroundColor">@color/red_100</item>
+
+
+    </style>
+
+    <style name="BaseShadowCardTheme" parent="Theme.RedditDemo">
+        <item name="android:padding">@dimen/spacing_16</item>
+        <item name="customBg">true</item>
+        <item name="customBgColor">?attr/appCardBackgroundColor</item>
+        <item name="customBlurRadius">6</item>
+        <item name="customRadius">@dimen/dp_8</item>
+        <item name="customShadow">true</item>
+        <item name="customShadowColor">?attr/colorShadowLight</item>
+        <item name="customShadowTranslationX">0</item>
+        <item name="customShadowTranslationY">0</item>
+    </style>
+    <style name="ShadowCardTheme" parent="BaseShadowCardTheme"/>
+
+
+
+
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="textAppearanceTitle1" format="reference" />
+    <attr name="textAppearanceTitle1SemiBold" format="reference" />
+    <attr name="textAppearanceTitle2Light" format="reference" />
+    <attr name="textAppearanceTitle2Regular" format="reference" />
+    <attr name="textAppearanceTitle2Bold" format="reference" />
+    <attr name="textAppearanceTitle2SemiBold" format="reference" />
+    <attr name="textAppearanceTitle3Light" format="reference" />
+    <attr name="textAppearanceTitle3Bold" format="reference" />
+    <attr name="textAppearanceTitle3SemiBold" format="reference" />
+    <attr name="textAppearanceTitle3Regular" format="reference" />
+    <attr name="textAppearanceTitle4SemiBold" format="reference" />
+    <attr name="textAppearanceTitle4Bold" format="reference" />
+    <attr name="textAppearanceTitle5Light" format="reference" />
+    <attr name="textAppearanceTitle5Regular" format="reference" />
+    <attr name="textAppearanceTitle5SemiBold" format="reference" />
+    <attr name="textAppearanceTitle6Italic" format="reference"/>
+    <attr name="textAppearanceTitle6SemiBold" format="reference"/>
+    <attr name="textColorAccent" format="reference" />
+    <attr name="textColorMedium" format="reference" />
+    <attr name="textColorMediumDark" format="reference" />
+    <attr name="textColorLight" format="reference" />
+    <attr name="textColorDark" format="reference" />
+    <attr name="textColorOnAccent" format="reference" />
+    <attr name="textColorYellow" format="reference"/>
+    <attr name="colorSeparator" format="reference" />
+    <attr name="colorShadow" format="reference" />
+    <attr name="colorShadowLight" format="reference" />
+    <attr name="themeColor" format="reference" />
+    <attr name="defaultHintColor" format="reference" />
+    <attr name="colorAccentBase" format="reference" />
+    <attr name="colorAccentYellowBase" format="reference" />
+    <attr name="textColorPositive" format="reference" />
+    <attr name="textColorNegative" format="reference" />
+    <attr name="appCardBackgroundColor" format="reference" />
+    <attr name="appCardAboveBackgroundColor" format="reference" />
+
+
+    <declare-styleable name="ShadowCard">
+        <attr name="customShadow" format="boolean" />
+        <attr name="customShadowTranslationX" format="integer" />
+        <attr name="customShadowTranslationY" format="integer" />
+        <attr name="customRadius" format="dimension" />
+        <attr name="customBlurRadius" format="integer" />
+        <attr name="customShadowColor" format="color" />
+        <attr name="customBg" format="boolean" />
+        <attr name="customBgColor" format="color" />
+        <attr name="customBorderColor" format="color" />
+        <attr name="customBorder" format="boolean" />
+        <attr name="customBorderWidth" format="dimension" />
+    </declare-styleable>
+</resources>

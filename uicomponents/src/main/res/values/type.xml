@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Title1" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/font_size_18</item>
+        <item name="android:fontFamily">@font/open_sans_bold</item>
+        <item name="lineHeight">@dimen/title_1_line_height</item>
+    </style>
+    <style name="Title1_Semi_bold" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/font_size_18</item>
+        <item name="android:fontFamily">@font/open_sans_semi_bold</item>
+        <item name="lineHeight">@dimen/title_1_line_height</item>
+    </style>
+    <style name="Title2_Light" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/font_size_16</item>
+        <item name="android:fontFamily">@font/open_sans_light</item>
+        <item name="lineHeight">@dimen/title_2_line_height</item>
+    </style>
+    <style name="Title2_Regular" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/font_size_16</item>
+        <item name="android:fontFamily">@font/open_sans_regular</item>
+        <item name="lineHeight">@dimen/title_2_line_height</item>
+    </style>
+    <style name="Title2_Bold" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/font_size_16</item>
+        <item name="android:fontFamily">@font/open_sans_bold</item>
+        <item name="lineHeight">@dimen/title_2_line_height</item>
+    </style>
+
+    <style name="Title2_Semi_Bold" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/font_size_16</item>
+        <item name="android:fontFamily">@font/open_sans_semi_bold</item>
+        <item name="lineHeight">@dimen/title_2_line_height</item>
+    </style>
+
+    <style name="Title3_Bold" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/font_size_14</item>
+        <item name="android:fontFamily">@font/open_sans_bold</item>
+    </style>
+
+    <style name="Title3_Semi_Bold" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/font_size_14</item>
+        <item name="android:fontFamily">@font/open_sans_semi_bold</item>
+        <item name="lineHeight">@dimen/title_3_line_height</item>
+    </style>
+
+    <style name="Title3_Regular" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/font_size_14</item>
+        <item name="android:fontFamily">@font/open_sans_regular</item>
+        <item name="lineHeight">@dimen/title_3_line_height</item>
+    </style>
+
+    <style name="Title3_Light" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/font_size_14</item>
+        <item name="android:fontFamily">@font/open_sans_light</item>
+        <item name="lineHeight">@dimen/title_3_line_height</item>
+    </style>
+
+    <style name="Title4_Semi_Bold" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/font_size_13</item>
+        <item name="fontFamily">@font/open_sans_semi_bold</item>
+        <item name="lineHeight">@dimen/title_3_line_height</item>
+    </style>
+
+    <style name="Title4_Bold" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/font_size_13</item>
+        <item name="fontFamily">@font/open_sans_bold</item>
+        <item name="lineHeight">@dimen/title_3_line_height</item>
+    </style>
+
+    <style name="Title5_Light" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/font_size_12</item>
+        <item name="android:fontFamily">@font/open_sans_light</item>
+        <item name="lineHeight">@dimen/title_4_line_height</item>
+    </style>
+
+    <style name="Title5_regular" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/font_size_12</item>
+        <item name="android:fontFamily">@font/open_sans_regular</item>
+        <item name="lineHeight">@dimen/title_4_line_height</item>
+    </style>
+
+    <style name="Title5_Semi_Bold" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/font_size_12</item>
+        <item name="android:fontFamily">@font/open_sans_semi_bold</item>
+        <item name="lineHeight">@dimen/title_4_line_height</item>
+    </style>
+
+    <style name="Title6_Italic" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/font_size_10</item>
+        <item name="android:fontFamily">@font/open_sans_italic</item>
+        <item name="lineHeight">@dimen/title_6_line_height</item>
+    </style>
+
+    <style name="Title6_Semi_Bold" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/font_size_10</item>
+        <item name="android:fontFamily">@font/open_sans_semi_bold</item>
+        <item name="lineHeight">@dimen/title_6_line_height</item>
+    </style>
+
+    <dimen name="font_size_18">18sp</dimen>
+    <dimen name="font_size_16">16sp</dimen>
+    <dimen name="font_size_14">14dp</dimen>
+    <dimen name="font_size_13">13dp</dimen>
+    <dimen name="font_size_12">12sp</dimen>
+    <dimen name="font_size_10">10sp</dimen>
+</resources>

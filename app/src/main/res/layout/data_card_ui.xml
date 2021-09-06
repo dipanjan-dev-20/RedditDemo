@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.reddit.uicomponents.components.ShadowCard
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ShadowCardTheme"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/spacing_10"
+    tools:theme="@style/Theme.RedditDemo">
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/author_name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="gvdsjvgjcj"
+        android:textAppearance="?attr/textAppearanceTitle5SemiBold"
+        android:textColor="?attr/textColorDark"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/time_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="gvdsjvgjcj"
+        android:layout_marginStart="@dimen/dp_5"
+        android:textAppearance="?attr/textAppearanceTitle5Light"
+        android:textColor="?attr/textColorDark"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/author_name_text"
+        android:layout_marginLeft="@dimen/dp_5" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/title_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_10"
+        android:textAppearance="?attr/textAppearanceTitle3SemiBold"
+        android:textColor="?attr/textColorDark"
+        android:layout_marginEnd="@dimen/spacing_10"
+        tools:text="gvdsjvhvhjvjhvdsjhvjhvjhfdvgjcj"
+        app:layout_constraintTop_toBottomOf="@+id/author_name_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/thumbnail_image"
+        android:layout_marginRight="@dimen/spacing_10" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/thumbnail_image"
+        android:layout_width="@dimen/spacing_100"
+        android:layout_height="@dimen/dp_64"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/author_name_text"/>
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="bottom"
+        app:constraint_referenced_ids="thumbnail_image,title_text" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/dp_10"
+        app:layout_constraintTop_toBottomOf="@+id/barrier">
+
+        <LinearLayout
+            android:id="@+id/like_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/spacing_6"
+            android:background="@drawable/circular_outline"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_like"/>
+            <TextView
+                android:id="@+id/like"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="65365"
+                android:layout_marginStart="@dimen/dp_5"
+                android:layout_marginEnd="@dimen/dp_5"
+                android:layout_gravity="center"
+                android:textAppearance="?attr/textAppearanceTitle3SemiBold"
+                android:textColor="?attr/textColorMediumDark"
+
+                />
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_dislike"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/spacing_6"
+            android:layout_marginStart="@dimen/dp_10"
+            android:background="@drawable/circular_outline"
+            app:layout_constraintStart_toEndOf="@+id/like_container"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginLeft="@dimen/dp_10">
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_outline_message"/>
+            <TextView
+                android:id="@+id/comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="65365"
+                android:layout_marginStart="@dimen/dp_5"
+                android:layout_gravity="center"
+                android:textAppearance="?attr/textAppearanceTitle3SemiBold"
+                android:textColor="?attr/textColorMediumDark"
+                android:layout_marginLeft="@dimen/dp_5" />
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</com.reddit.uicomponents.components.ShadowCard>

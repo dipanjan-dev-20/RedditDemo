@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RedditDemo</string>
+    <string name="something_wrong">Ops something went wrong</string>
+</resources>

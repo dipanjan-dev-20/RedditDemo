@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="black">#FF000000</color>
+    <color name="black_trans_80">#CC000000</color>
+    <color name="black__trans_25">#40000000</color>
+    <color name="black_trans_12">#1F000000</color>
+    <color name="black_trans_5">#0D000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#E82B2B</color>
+    <color name="red_100">#F8F5F5</color>
+    <color name="grey_100">#F9F9F9</color>
+    <color name="grey_200">#E4E4E4</color>
+    <color name="grey_300">#D4D3D3</color>
+    <color name="grey_600">#808080</color>
+    <color name="grey_800">#424242</color>
+    <color name="grey_900">#212121</color>
+    <color name="green">#429F46</color>
+    <color name="yellow_trans_8">#14EEC400</color>
+    <color name="yellow">#EEC400</color>
+    <color name="white__trans_25">#40FFFFFF</color>
+    <color name="white_trans_12">#1FFFFFFF</color>
+    <color name="white_trans_5">#0DFFFFFF</color>
+
+
+
+</resources>
